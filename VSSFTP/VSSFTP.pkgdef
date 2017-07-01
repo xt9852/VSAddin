@@ -1,0 +1,24 @@
+﻿[$RootKey$\Packages\{6a0dbf1c-e4e4-4424-95fc-8aa55b8c551b}]
+@="VSSFTP Package"
+"InprocServer32"="$PackageFolder$\VSSFTP.dll"
+"CompanyName"="XT Company"
+"ProductName"="sftp client"
+"ProductVersion"="0.0.1"
+
+[$RootKey$\Packages\{6a0dbf1c-e4e4-4424-95fc-8aa55b8c551b}\SatelliteDll]
+"DllName"="VSSFTPUI.dll"
+"Path"="$PackageFolder$"
+
+[$RootKey$\Menus]
+"{6a0dbf1c-e4e4-4424-95fc-8aa55b8c551b}"=", 1000, 1"
+
+[$RootKey$\InstalledProducts\VSSFTP]
+@="#100"
+"Package"="{6a0dbf1c-e4e4-4424-95fc-8aa55b8c551b}"
+"ProductDetails"="#102"
+"LogoID"="#400"
+"PID"="1.0"
+"UseInterface"=dword:00000000
+
+
+

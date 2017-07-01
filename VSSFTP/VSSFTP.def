@@ -1,0 +1,7 @@
+﻿; VSSFTP.def : Declares the module parameters.
+
+LIBRARY      "VSSFTP.DLL"
+
+EXPORTS
+	DllCanUnloadNow            PRIVATE
+	DllGetClassObject          PRIVATE

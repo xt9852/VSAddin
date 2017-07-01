@@ -1,0 +1,20 @@
+﻿<root>
+  <server addr="123.123.123.123" port="22" username="user" password="pass" type="ssh" >
+    <ssh cmd="" sleep="2000"/>
+    <ssh cmd="user" sleep="1000"/>
+    <ssh cmd="pass" sleep="1000"/>
+  </server>
+
+  <server addr="123.123.123.123" port="22" username="user" password="pass" type="ssh" >
+    <ssh cmd="" sleep="1000"/>
+    <ssh cmd="0" sleep="200"/>
+    <ssh cmd="0" sleep="200"/>
+    <ssh cmd="1.1.1.1" sleep="200"/>
+    <ssh cmd="1" sleep="1000"/>
+  </server>
+
+  <server addr="123.123.123.123" port="22" username="user" password="pass" type="sftp" />
+  <server addr="123.123.123.123" port="22" username="user" password="pass" type="sftp" />
+
+  <project name="test" server="123.123.123.123" remote_path="/data/" />
+</root>

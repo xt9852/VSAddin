@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
-    <Identity Id="6a0dbf1c-e4e4-4424-95fc-8aa55b8c551b" Version="0.0.2" Language="en-US" Publisher="XT" />
-    <DisplayName>sftp client</DisplayName>
-    <Description>visual studio package sftp client</Description>
+    <Identity Id="6a0dbf1c-e4e4-4424-95fc-8aa55b8c551c" Version="0.0.2" Language="en-US" Publisher="XT" />
+    <DisplayName>ssh/sftp client</DisplayName>
+    <Description xml:space="preserve">visual studio package ssh/sftp client</Description>
   </Metadata>
   <Installation AllUsers="true">
     <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="[14.0]" />

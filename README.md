@@ -5,8 +5,7 @@ VSSFTP是visual studio 2015的sftp扩展插件,主要用于直接在VS中上传,
 编译完成后,双击VSSFTP\VSSFTPVSIX\bin\Debug\VSSFTP.vsix,进行安装
 
 ## 2, 配置文件
-在项目解决方案文件(***.sln)同目录下,添加文件ssh.xml
-![alt text](VSSFTP/ssh.xml "ssh.xml")
+在项目解决方案文件(***.sln)同目录下,添加文件[ssh.xml](https://github.com/xt9852/VSAddin/blob/master/VSSFTP/ssh.xml)
 
 ## 3, 上传文件
 
